@@ -34,3 +34,14 @@ Console.Write("Введите координату z2: ");
 int z2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Расстояние между точками: " + Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2)));
 */
+
+/* Задача 23. Напишите программу, которая принимает на вход число (N) и выдает
+              таблицу кубов чисел от 1 до N. */
+
+/*
+Console.Write("Веддите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+for(int i = 1; i <= n; i++)
+    Console.Write(Math.Pow(i, 3) + " ");
+*/
